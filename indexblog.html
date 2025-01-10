@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Inspirador</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #ffffff;
+            color: #333;
+            text-align: center;
+            padding: 1.5rem 0;
+            border-bottom: 2px solid #eaeaea;
+        }
+        header h1 {
+            font-size: 2.8rem;
+            margin: 0;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            font-weight: 400;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f39c12;
+        }
+        .hero {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        main {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+        }
+        .article {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        .article img {
+            width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .article-content {
+            flex: 1;
+        }
+        .article-content h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #2575fc;
+            font-weight: 700;
+        }
+        .article-content p {
+            line-height: 1.6;
+            color: #555;
+            font-weight: 400;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #333;
+            color: white;
+            margin-top: 3rem;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Digital Descomplicado</h1>
+        <p>Descubra insights e estratégias para o sucesso!</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Bem-vindo ao Digital Descomplicado</h2>
+        <p>Um espaço para inovar, aprender e crescer. Aqui você encontra inspiração para transformar sonhos em realidade!</p>
+    </section>
+
+    <main>
+        <div class="article">
+            <img src="https://via.placeholder.com/300" alt="Marketing Digital">
+            <div class="article-content">
+                <h3>Transforme Seu Negócio com Marketing Digital</h3>
+                <p>Descubra como alavancar suas redes sociais e atrair clientes com estratégias comprovadas de marketing digital.</p>
+            </div>
+        </div>
+
+        <div class="article">
+            <img src="https://via.placeholder.com/300" alt="Finanças Pessoais">
+            <div class="article-content">
+                <h3>Finanças Pessoais Simplificadas</h3>
+                <p>Aprenda a gerenciar seu dinheiro de forma inteligente e alcançar seus objetivos financeiros.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Blog Inspirador. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Ícone do site e metadados básicos -->
+    <link rel="icon" type="image/png" href="DALL·E 2025-01-09 23.48.01 - A modern and clean logo design for a favicon, featuring the initials 'DD' for 'Digital Descomplicado'. The letters are styled in a sleek, minimalist f.webp">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Digital Descomplicado</title>
+    <style>
+        /* Estilos gerais da seção */
+        section {
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #eef2f7, #d9eaf7);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+        }
+        section h2 {
+            text-align: center;
+            color: #2575fc;
+            margin-bottom: 1rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilos do formulário de contato */
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            background-color: #ffffff;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        input, textarea {
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            width: 100%;
+            background-color: #f9f9f9;
+        }
+        input:focus, textarea:focus {
+            border-color: #2575fc;
+            outline: none;
+            background-color: #ffffff;
+            box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+        }
+        button {
+            padding: 0.8rem;
+            background-color: #2575fc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #1a5bbf;
+        }
+        button:active {
+            background-color: #0f4a96;
+        }
+
+        /* Estilos gerais do corpo e layout */
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100vh;
+        }
+
+        /* Cabeçalho do site */
+        header {
+            background: #ffffff;
+            color: #333;
+            padding: 1rem 0;
+            border-bottom: 2px solid #eaeaea;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+        header img {
+            border-radius: 50%;
+            height: 80px;
+            margin-right: 2rem;
+        }
+        header h1 {
+            font-size: 2.8rem;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        /* Menu de navegação */
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        /* Configurações gerais para o conteúdo principal */
+        main {
+            flex: 1;
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+        }
+
+        /* Rodapé do site */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #333;
+            color: white;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho com o título e logotipo do site -->
+    <header>
+        <img src="DALL·E 2025-01-09 23.48.01 - A modern and clean logo design for a favicon, featuring the initials 'DD' for 'Digital Descomplicado'. The letters are styled in a sleek, minimalist f.webp" alt="Logo Digital Descomplicado">
+        <div>
+            <h1>Digital Descomplicado</h1>
+            <p>Descubra insights e estratégias para o sucesso!</p>
+        </div>
+    </header>
+
+    <!-- Menu de navegação para páginas principais -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <!-- Conteúdo principal: formulário de contato -->
+    <main>
+        <section>
+            <h2>Suporte ao Cliente</h2>
+            <!-- Formulário com campos para nome, e-mail e mensagem -->
+            <form action="#" method="post">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé com informações de copyright -->
+    <footer>
+        <p>&copy; 2025 Digital Descomplicado. Todos os direitos reservados.</p>
+    </footer>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        emailjs.init("xJk5nfZSdVkOKRg0S"); // Substitua por seu User ID do EmailJS
+
+        document.querySelector("form").addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            emailjs.sendForm("service_q8g3j5e", "template_03ox31z", this)
+                .then(() => {
+                    alert("Mensagem enviada com sucesso!");
+                    this.reset(); // Limpa o formulário após o envio
+                })
+                .catch(error => {
+                    console.error("Erro ao enviar a mensagem:", error);
+                    alert("Erro ao enviar a mensagem. Tente novamente mais tarde.");
+                });
+        });
+    </script>
+</body>
+</html>
